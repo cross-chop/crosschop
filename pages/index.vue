@@ -5,6 +5,7 @@
         <img src="~/assets/img/logo.svg" alt="cross chop" />
       </h1>
       <p class="subtitle">We know HTML, CSS and Javascript.</p>
+      <p class="note">build test</p>
     </div>
   </div>
 </template>
@@ -39,6 +40,9 @@ export default {}
   margin: 0 0 0 -5px;
   // word-spacing: 5px;
   // padding-bottom: 15px;
+}
+.note {
+  margin-top: 1em;
 }
 
 .links {
