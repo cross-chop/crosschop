@@ -15,8 +15,12 @@ export default {}
 
 <style lang="scss" scoped>
 .container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
